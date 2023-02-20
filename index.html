@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>PCode-Nvim               </title>
+  <title>PCode-Nvim </title>
 
   <!-- Meta -->
   <meta charset="utf-8" />
@@ -92,18 +92,9 @@
             <a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i
                   class="fas fa-arrow-down"></i></span>Installation</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="#item-2-1">Section Item 2.1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="#item-2-2">Section Item 2.2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link scrollto" href="#item-2-3">Section Item 2.3</a>
-          </li>
           <li class="nav-item section-title mt-3">
             <a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i
-                  class="fas fa-box"></i></span>APIs</a>
+                  class="fas fa-box"></i></span>Setelah Install</a>
           </li>
           <li class="nav-item">
             <a class="nav-link scrollto" href="#item-3-1">Section Item 3.1</a>
@@ -250,76 +241,30 @@
 
           <article class="docs-article" id="section-2">
             <header class="docs-header">
-              <h1 class="docs-heading">Installation</h1>
-              <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-linux"
-                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Linux / Mac OS</button>
-                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-win" aria-selected="false">Windows</button>
+              <h1 class="docs-heading">Installation</h1>             
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#linux">Linux / Mac OS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#win">Windows</a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="linux" class="container tab-pane active">
+                  <pre><code class="hljs language-bash">git clone https://github.com/pojokcodeid/nvim-lazy-basic.git ~/.config/nvim</code></pre>
                 </div>
-              </nav>
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-linux" role="tabpanel" aria-labelledby="nav-home-tab">
-                  <pre>
-                    <code class="hljs lang-bash">
-                      git clone https://github.com/pojokcodeid/nvim-lazy-basic.git ~/.config/nvim
-                    </code>
-                  </pre>
+                <div id="win" class="container tab-pane fade">
+                  <pre><code class="hljs language-ps1">git clone https://github.com/pojokcodeid/nvim-lazy-basic.git "$env:LOCALAPPDATA\nvim"</code></pre>
                 </div>
-                <div class="tab-pane fade" id="nav-win" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
               </div>
-
-
-
               <section class="docs-intro">
               </section>
               <!--//docs-intro-->
             </header>
-            <section class="docs-section" id="item-2-1">
-              <h2 class="section-heading">Section Item 2.1</h2>
-              <p>
-                Vivamus efficitur fringilla ullamcorper. Cras condimentum
-                condimentum mauris, vitae facilisis leo. Aliquam sagittis purus
-                nisi, at commodo augue convallis id. Sed interdum turpis quis
-                felis bibendum imperdiet. Mauris pellentesque urna eu leo
-                gravida iaculis. In fringilla odio in felis ultricies porttitor.
-                Donec at purus libero. Vestibulum libero orci, commodo nec arcu
-                sit amet, commodo sollicitudin est. Vestibulum ultricies
-                malesuada tempor.
-              </p>
-            </section>
-            <!--//section-->
-
-            <section class="docs-section" id="item-2-2">
-              <h2 class="section-heading">Section Item 2.2</h2>
-              <p>
-                Vivamus efficitur fringilla ullamcorper. Cras condimentum
-                condimentum mauris, vitae facilisis leo. Aliquam sagittis purus
-                nisi, at commodo augue convallis id. Sed interdum turpis quis
-                felis bibendum imperdiet. Mauris pellentesque urna eu leo
-                gravida iaculis. In fringilla odio in felis ultricies porttitor.
-                Donec at purus libero. Vestibulum libero orci, commodo nec arcu
-                sit amet, commodo sollicitudin est. Vestibulum ultricies
-                malesuada tempor.
-              </p>
-            </section>
-            <!--//section-->
-
-            <section class="docs-section" id="item-2-3">
-              <h2 class="section-heading">Section Item 2.3</h2>
-              <p>
-                Vivamus efficitur fringilla ullamcorper. Cras condimentum
-                condimentum mauris, vitae facilisis leo. Aliquam sagittis purus
-                nisi, at commodo augue convallis id. Sed interdum turpis quis
-                felis bibendum imperdiet. Mauris pellentesque urna eu leo
-                gravida iaculis. In fringilla odio in felis ultricies porttitor.
-                Donec at purus libero. Vestibulum libero orci, commodo nec arcu
-                sit amet, commodo sollicitudin est. Vestibulum ultricies
-                malesuada tempor.
-              </p>
-            </section>
-            <!--//section-->
           </article>
           <!--//docs-article-->
 
