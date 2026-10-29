@@ -1,0 +1,12 @@
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Containerfile
+    image: chirpy-dev
+    container_name: chirpy-dev
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll:Z

@@ -1,0 +1,110 @@
+# ---------- Dasar ----------
+theme: jekyll-theme-chirpy
+lang: id
+timezone: Asia/Jakarta
+
+title: Pojok Code
+tagline: Belajar, mencoba, dan menulis
+description: >-
+  Blog pribadi tentang pemrograman, DevOps, dan hal-hal yang saya pelajari.
+
+# GANTI: URL situs. Project page => url tetap, baseurl "/nama-repo"
+url: "https://pojokcodeid.github.io"
+baseurl: ""
+
+avatar: /assets/img/asep.png
+
+github:
+  username: pojokcodeid
+
+social:
+  name: Asep Komarudin
+  email: pojokcodeid@contoh.com
+  links:
+    - https://github.com/pojokcodeid
+
+# ---------- Tampilan ----------
+theme_mode: # kosong = ikut sistem; isi "light" atau "dark"
+toc: true
+paginate: 10
+
+# ---------- Fitur ----------
+comments:
+  provider: # disqus | utterances | giscus
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+
+# ---------- Build ----------
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+      dynamic_title: true
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - Makefile
+  - Containerfile
+  - compose.yaml
+  - node_modules
+  - vendor
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
