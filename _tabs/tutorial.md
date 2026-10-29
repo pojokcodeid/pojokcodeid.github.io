@@ -1,5 +1,5 @@
 ---
-title: Programming Tutorial
+title: Programming
 icon: fas fa-code
 order: 0
 permalink: /tutorial-programming/
