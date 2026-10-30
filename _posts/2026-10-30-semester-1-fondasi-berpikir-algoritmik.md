@@ -181,7 +181,7 @@ flowchart TD
     D --> E([Selesai])
 ```
 
-> **Catatan Jekyll:** diagram Mermaid membutuhkan konfigurasi tambahan pada tema (lihat bagian _Catatan Teknis_ di akhir tulisan). Tanpa konfigurasi, blok ini tampil sebagai teks biasa.
+>
 
 ## 1.6 Langkah Sistematis Memecahkan Masalah
 
@@ -1111,22 +1111,3 @@ Setelah menyelesaikan semester ini, langkah berikutnya adalah mempelajari **stru
 Selamat belajar, dan jangan lupa: **kerjakan praktiknya**. Algoritma hanya bisa dikuasai lewat latihan, bukan sekadar membaca.
 
 ---
-
-## Catatan Teknis untuk Jekyll
-
-Bagian ini bisa dihapus sebelum dipublikasikan.
-
-- **Nama file** harus berformat `YYYY-MM-DD-judul.md` dan diletakkan di folder `_posts/`.
-- **Daftar isi** menggunakan `{:toc}` bawaan kramdown (sudah berfungsi di GitHub Pages).
-- **Rumus matematika** memakai sintaks `$$ ... $$` (kramdown + MathJax). Aktifkan MathJax di layout Anda, misalnya:
-
-```html
-<script
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-></script>
-```
-
-- **Diagram Mermaid** membutuhkan script tambahan dan blok `mermaid` harus dikonversi menjadi elemen `<pre class="mermaid">`. Beberapa tema (misalnya Chirpy) sudah mendukungnya lewat front matter `mermaid: true`. Jika tema Anda tidak mendukung, ganti diagram dengan gambar.
-- Sesuaikan `layout`, `categories`, dan `tags` di _front matter_ dengan tema Anda.
