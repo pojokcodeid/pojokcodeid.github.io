@@ -21,18 +21,13 @@ mermaid: true
 
 Banyak orang langsung belajar sintaks bahasa pemrograman, lalu bingung saat harus memecahkan masalah nyata. Padahal kemampuan terpenting seorang programmer adalah **berpikir secara algoritmik**: mengubah masalah menjadi langkah-langkah yang jelas, berurutan, dan bisa dieksekusi.
 
-Semester 1 ini dirancang untuk membangun fondasi tersebut dan terdiri dari tiga modul:
+Materi ini dirancang untuk membangun fondasi tersebut dan terdiri dari tiga modul:
 
 1. **Computational Thinking**: memecahkan masalah sebelum menulis kode.
 2. **Programming Fundamentals untuk Algoritma**: konsep, bukan bahasa tertentu.
 3. **Mathematical Foundations**: matematika yang dibutuhkan algoritma.
 
-**Target akhir semester:** mampu menulis algoritma sederhana dan memahami operasi matematika yang mendasarinya.
-
-## Daftar Isi
-
-- TOC
-  {:toc}
+**Target akhir:** mampu menulis algoritma sederhana dan memahami operasi matematika yang mendasarinya.
 
 ---
 
