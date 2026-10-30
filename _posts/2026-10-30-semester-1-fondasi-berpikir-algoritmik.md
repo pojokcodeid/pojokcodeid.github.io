@@ -29,6 +29,11 @@ Materi ini dirancang untuk membangun fondasi tersebut dan terdiri dari tiga modu
 
 **Target akhir:** mampu menulis algoritma sederhana dan memahami operasi matematika yang mendasarinya.
 
+## Daftar Isi
+
+* TOC
+{:toc}
+
 ---
 
 # Modul 1. Computational Thinking
