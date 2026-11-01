@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Belajar Flowchart dari Nol sampai Mahir: Panduan Lengkap Bahasa Indonesia"
-date: 2026-10-31 10:00:00 +0700
+date: 2026-11-01 10:00:00 +0700
 categories: [algoritma, flowchart]
 tags: [flowchart, diagram-alir, algoritma, pseudocode, mermaid, drawio, plantuml, system-design, tutorial, indonesia]
 description: "Panduan belajar flowchart dalam bahasa Indonesia: simbol, struktur kontrol, perancangan algoritma, flowchart sistem dan arsitektur software, hingga Mermaid, Draw.io, dan PlantUML."
