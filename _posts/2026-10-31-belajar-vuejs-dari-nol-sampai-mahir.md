@@ -6,6 +6,9 @@ categories: [frontend, vuejs]
 tags: [vue, vuejs, vue3, javascript, frontend, pinia, vue-router, vite, tutorial, indonesia]
 description: "Panduan belajar Vue.js 3 lengkap dalam bahasa Indonesia: dari persiapan, dasar, routing, state management, API, testing, deployment, hingga kontribusi open source."
 toc: true
+image:
+  path: /assets/posts/2026-10-31-vue-js.jpg
+  alt: VUE JS 
 ---
 
 {% raw %}

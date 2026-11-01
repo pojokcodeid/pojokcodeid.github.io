@@ -6,6 +6,9 @@ categories: [programming, lua]
 tags: [lua, lua54, luajit, luarocks, neovim, metatable, coroutine, scripting, tutorial, indonesia]
 description: "Panduan belajar bahasa Lua dalam bahasa Indonesia: dari dasar, table, metatable, OOP, coroutine, hingga Lua C API dan pengembangan plugin Neovim."
 toc: true
+image:
+  path: /assets/posts/2026-10-31-pemprograman-lua.jpg
+  alt: Lua Programming
 ---
 
 {% raw %}
