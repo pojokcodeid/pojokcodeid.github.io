@@ -5315,7 +5315,6 @@ Utamakan dokumentasi resmi agar pemahaman sesuai dengan versi Lua yang digunakan
 2. [Lua 5.4 Reference Manual](https://www.lua.org/manual/5.4/)
 3. [Programming in Lua](https://www.lua.org/pil/): buku resmi oleh pencipta Lua. Versi online gratis mengacu pada versi Lua yang lebih lama (konsepnya tetap relevan, tetapi ada detail yang berbeda); edisi yang lebih baru tersedia untuk dibeli dan mencakup Lua 5.3.
 4. [Lua Frequently Asked Questions](https://www.lua.org/faq.html)
-5. [Lua Users Wiki](http://lua-users.org/wiki/)
 
 ## Tools dan Ecosystem
 
