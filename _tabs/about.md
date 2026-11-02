@@ -1,6 +1,6 @@
 ---
 icon: fas fa-info-circle
-order: 4
+order: 6
 ---
 
 Halo, saya **Asep Komarudin**. Situs ini dibangun dengan [Jekyll](https://jekyllrb.com/)
