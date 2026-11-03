@@ -1,15 +1,12 @@
 ---
 layout: post
 title: "Belajar Svelte dari Nol sampai Mahir: Panduan Lengkap Svelte 5 dan SvelteKit"
-date: 2026-11-31 02:00:00 +0700
+date: 2026-10-31 11:00:00 +0700
 categories: [frontend, svelte]
 tags: [svelte, svelte5, runes, sveltekit, typescript, javascript, frontend, fullstack, tutorial, indonesia]
 description: "Panduan belajar Svelte 5 dan SvelteKit dalam bahasa Indonesia: dari fondasi web dan JavaScript, Runes, komponen, state, routing, form actions, database, autentikasi, testing, deployment, hingga arsitektur enterprise."
 toc: true
 mermaid: true
-image:
-  path: /assets/posts/2026-11-02-svelte.png
-  alt: Belajar Svelte
 ---
 
 {% raw %}
