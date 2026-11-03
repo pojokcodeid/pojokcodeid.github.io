@@ -7,6 +7,9 @@ tags: [svelte, svelte5, runes, sveltekit, typescript, javascript, frontend, full
 description: "Panduan belajar Svelte 5 dan SvelteKit dalam bahasa Indonesia: dari fondasi web dan JavaScript, Runes, komponen, state, routing, form actions, database, autentikasi, testing, deployment, hingga arsitektur enterprise."
 toc: true
 mermaid: true
+image:
+  path: /assets/posts/2026-11-02-svelte.png
+  alt: Belajar Svelte dari nol sampai mahir
 ---
 
 {% raw %}
@@ -48,7 +51,7 @@ Setiap level berisi **dasar teori, penjelasan, contoh kode, latihan atau proyek,
 4. **Simpan di Git** sejak awal; portofoliomu tumbuh bersama panduan ini.
 5. Perkiraan waktu (saran, bukan angka resmi): **10–15 jam/minggu** selama kurang lebih **6–9 bulan** untuk menuntaskan seluruh level secara mendalam.
 
-Diagram di panduan ini ditulis dengan [Mermaid](https://mermaid.js.org/). GitHub dan banyak tema merendernya otomatis. Pada Jekyll polos, tambahkan skrip berikut sekali saja ke layout:
+<!-- Diagram di panduan ini ditulis dengan [Mermaid](https://mermaid.js.org/). GitHub dan banyak tema merendernya otomatis. Pada Jekyll polos, tambahkan skrip berikut sekali saja ke layout:
 
 ```html
 <script type="module">
@@ -63,7 +66,7 @@ Diagram di panduan ini ditulis dengan [Mermaid](https://mermaid.js.org/). GitHub
   mermaid.initialize({ startOnLoad: false, securityLevel: 'strict' });
   mermaid.run();
 </script>
-```
+``` -->
 
 * TOC
 {:toc}
