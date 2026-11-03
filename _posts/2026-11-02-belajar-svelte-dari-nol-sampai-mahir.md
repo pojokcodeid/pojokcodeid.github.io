@@ -9,7 +9,7 @@ toc: true
 mermaid: true
 image:
   path: /assets/posts/2026-11-02-svelte.png
-  alt: Belajar Svelte dari nol sampai mahir
+  alt: Belajar Svelte
 ---
 
 {% raw %}
