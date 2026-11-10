@@ -7,7 +7,7 @@ tags: [golang, capstone, project, portfolio]
 permalink: /belajar-go/fase-12-proyek-akhir/
 image:
   path: /assets/posts/2026-11-10-go.png
-  alt: Proyek Akhir (Capstone)
+  alt: Proyek Akhir - Capstone
 ---
 
 # Proyek Akhir (Capstone)
