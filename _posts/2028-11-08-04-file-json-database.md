@@ -4,7 +4,7 @@ title: "Fase 4 — File, JSON, dan Data Persistence"
 date: 2026-11-11 09:00:00 +0700
 categories: [golang, tutorial]
 tags: [golang, json, file, database, sql]
-permalink: /belajar-go/fase-4-file-json-database/
+permalink: /belajar-go/fase-4-filejson-database/
 image:
   path: /assets/posts/2026-11-10-go.png
   alt: File, JSON, dan Data Persistence
