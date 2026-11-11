@@ -993,5 +993,6 @@ func main() {
 - `internal/` menyembunyikan package; `go mod tidy` menjaga dependency tetap bersih.
 
 ---
-
+<!--
 Lanjut ke: [Fase 4 — File, JSON, dan Data Persistence]({{ site.baseurl }}/belajar-go/fase-4-filejson-database/)
+-->
