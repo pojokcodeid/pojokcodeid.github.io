@@ -952,5 +952,6 @@ func AktifkanPaket(ctx context.Context, db *sql.DB, userID int, paket string) er
 - Parameterized query mencegah SQL injection; whitelist untuk kolom dinamis.
 
 ---
-
+<!--
 Lanjut ke: [Fase 5 — Testing dan Quality]({{ site.baseurl }}/belajar-go/fase-5-testing-quality/)
+-->
