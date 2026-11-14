@@ -897,5 +897,6 @@ Ambil operasi `POST /transfer` lalu buat idempotent dengan `Idempotency-Key`
 - Circuit breaker + fallback menjaga satu kegagalan tidak menjatuhkan sistem.
 
 ---
-
+<!--
 Lanjut ke: [Fase 11 — Deployment dan Production]({{ site.baseurl }}/belajar-go/fase-11-deployment-production/)
+-->

@@ -1081,5 +1081,6 @@ contoh, dan error code. Bisa diverifikasi dengan Spectral/Redocly CLI.
 - Mulai tanpa framework; tambah hanya saat butuh.
 
 ---
-
+<!--
 Lanjut ke: [Fase 8 — Backend Architecture]({{ site.baseurl }}/belajar-go/fase-8-backend-architecture/)
+-->

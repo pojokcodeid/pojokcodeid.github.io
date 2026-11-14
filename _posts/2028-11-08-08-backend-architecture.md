@@ -898,5 +898,6 @@ func TestAlurLoginDanCRUD(t *testing.T) {
 - Keamanan adalah lapisan: validasi, parameterized query, rate limit, HTTPS, header.
 
 ---
-
+<!--
 Lanjut ke: [Fase 9 — Advanced Go]({{ site.baseurl }}/belajar-go/fase-9-advanced-go/)
+-->

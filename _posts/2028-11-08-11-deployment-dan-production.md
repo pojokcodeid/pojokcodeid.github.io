@@ -1074,5 +1074,6 @@ Aktifkan `.github/workflows/ci.yml` di atas dan pastikan:
 - Selalu siapkan **rollback** yang bisa dijalankan dalam hitungan menit.
 
 ---
-
+<!--
 Lanjut ke: [Fase 12 — Proyek Akhir (Capstone)]({{ site.baseurl }}/belajar-go/fase-12-proyek-akhir/)
+-->
