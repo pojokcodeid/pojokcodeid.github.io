@@ -1005,8 +1005,10 @@ func main() {
 ### 2. REST API Product dengan database
 
 Gabungkan materi fase 4 (repository) + fase 7 (handler):
-`handler → service → repository → database`. Struktur lengkapnya dibahas
+`handler → service → repository → database`. Struktur lengkapnya dibahas. Fase 8 — Backend Architecture
+<!--
 di [Fase 8 — Backend Architecture]({{ site.baseurl }}/belajar-go/fase-8-backend-architecture/).
+-->
 
 ### 3. API authentication berbasis JWT
 
